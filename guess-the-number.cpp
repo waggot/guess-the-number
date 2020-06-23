@@ -9,7 +9,7 @@ int main()
   num = rand() % 100 + 1;
   
   do{
-  std::cout << "Guess the a number between 0-100! \n";
+  std::cout << "Guess the number between 0-100! \n";
   std::cin >> guess; 
   tries++;
   
