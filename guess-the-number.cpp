@@ -19,6 +19,6 @@ int main()
   else if (guess < num ){
     std::cout << "higher\n";    
   }
-  else (std::cout << "CORRECT!!!!!\n");
+  else (std::cout << "Correct! You took " << tries << " tries!\n");
   } while (guess != num);
 }
